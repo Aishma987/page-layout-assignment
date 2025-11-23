@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Improved Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#flexbox">Flexbox</a></li>
+        <li><a href="#grid">Grid</a></li>
+        <li><a href="#responsive">Responsive</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is <strong>Aayushma</strong>. I’m studying ICT at Laurea University of Applied Sciences
+        and learning modern web development. This page demonstrates Flexbox, Grid, Semantic HTML, and Responsive Design.
+      </p>
+    </section>
+
+    <!-- FLEXBOX SECTION (Title Updated) -->
+    <section id="flexbox">
+      <h2>Flexbox Layout</h2>
+      <p>
+        Flexbox is great for arranging items in a row. Below are three boxes spaced evenly using 
+        <code>justify-content: space-around</code>.
+      </p>
+
+      <div class="flex-container">
+        <div class="box">
+          <h3>Box 1</h3>
+          <p>This box shows how Flexbox automatically adjusts spacing.</p>
+        </div>
+
+        <div class="box">
+          <h3>Box 2</h3>
+          <p>Flexbox helps maintain alignment even on smaller screens.</p>
+        </div>
+
+        <div class="box">
+          <h3>Box 3</h3>
+          <p>Each box expands to fill available space evenly.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID SECTION (Title Updated) -->
+    <section id="grid">
+      <h2>Grid Layout</h2>
+      <p>
+        CSS Grid is perfect for creating structured layouts.  
+        The grid below has <strong>3 columns</strong> and <strong>2 rows</strong>. 
+        Each item fits automatically into the grid cells.
+      </p>
+
+      <div class="grid-container">
+
+        <div class="grid-item">
+          <h3>1</h3>
+          <p>Top-left grid cell.</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>2</h3>
+          <p>Grid auto-aligns items in order.</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>3</h3>
+          <p>Good for galleries or dashboards.</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>4</h3>
+          <p>The second row starts here.</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>5</h3>
+          <p>Layouts stay consistent on large screens.</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>6</h3>
+          <p>Grid is very flexible and clean.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESPONSIVE SECTION (Title Updated) -->
+    <section id="responsive">
+      <h2>Responsive Media Queries</h2>
+      <p>
+        Media queries help websites adapt to different screen sizes.  
+        Resize your window or view this on your phone to see the color change.
+      </p>
+
+      <div class="responsive-box">
+        This box changes color depending on screen width! <br><br>
+
+        ✔ Below 600px → <strong>light coral</strong> <br>
+        ✔ Above 600px → <strong>light sea green</strong>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 | Created by <strong>Aayushma</strong></p>
+    <p>Validated with W3C Validator using the VS Code extension ✔</p>
+  </footer>
+
+</body>
+</html>
